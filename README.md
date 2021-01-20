@@ -43,6 +43,23 @@ console.log(sayHi(person));
 
 ```
 
+### 형변환
+```javascript
+interface User {
+  id: string,
+}
+const index: number = 1;
+
+const userId : user = {
+  id : "1"
+}
+const compIdAndIndex = (user : User, index : number): boolean => {
+  if( +user.id === index){
+    return true
+  }
+}
+```
+
 
 ### 부록. Error
 
