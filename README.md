@@ -59,6 +59,7 @@ const compIdAndIndex = (user : User, index : number): boolean => {
   }
 }
 ```
+- string 형 앞에 + 를 붙일 시 number형으로 강제 형변환이 가능하다
 
 
 ### 부록. Error
